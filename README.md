@@ -1,5 +1,5 @@
 # Ferramenta de Segurança para Senhas
-## [![](https://img.shields.io/badge/Open-App-blue?style=for-the-badge)]([https://foxmoondev.github.io/Gerador-SHA256/](https://foxmoondev.github.io/Gerador-SHA256/))  👈 Run site online
+## [![](https://img.shields.io/badge/Open-App-blue?style=for-the-badge)](https://foxmoondev.github.io/Gerador-SHA256/) 👈 Run site online
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5)
