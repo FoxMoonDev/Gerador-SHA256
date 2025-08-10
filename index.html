@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferramentas de Senha</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    
+        <h1>Gerador de Hash Seguro (PBKDF2+SHA256)</h1>
+        <p class="description">Digite qualquer senha ou texto abaixo para gerar um hash seguro com um salt aleatório. O resultado é ideal para armazenamento seguro em banco de dados.</p>
+        <div class="input-group">
+            <input type="password" id="hashInput" placeholder="Digite a senha para gerar o hash...">
+            <button id="generateHashButton">Gerar Hash</button>
+        </div>
+          </p>By FoxMoonDev</p>
+        <div class="result-box" id="resultBoxHash" style="display: none;">
+            <h2>Hash Gerado:</h2>
+            <div class="output-area">
+                <code id="hashOutput"></code>
+              
+                <button class="copy-button" id="copyHashButton" title="Copiar"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-5zm0 16H8V7h11v14z"/></svg></button>
+            </div>
+         
+            <div class="copy-notification">Copiado!</div>
+        </div>
+        
+        <hr class="separator">
+
+     
+        <h1>Transformador de Senha </h1>
+        <p class="description">Digite uma palavra ou frase memorável e a transformaremos em uma senha mais forte, substituindo letras por números e símbolos.</p>
+        <div class="input-group">
+            <input type="text" id="transformInput" placeholder="Digite sua palavra base (ex: abacate)">
+            <button id="transformButton">Transformar</button>
+        </div>
+        <div class="result-box" id="resultBoxTransform">
+            <div class="output-area password-display"><code id="transformOutput">Sua senha transformada aparecerá aqui...</code>
+                <button class="copy-button" id="copyTransformButton" title="Copiar"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-5zm0 16H8V7h11v14z"/></svg></button>
+            </div>
+              </p>By FoxMoonDev</p>
+            <div class="copy-notification">Copiado!</div>
+        </div>
+
+        <hr class="separator">
+
+     
+        <h1>Gerador de Senha Aleatória</h1>
+        <p class="description">Crie uma senha forte e completamente aleatória. Use as opções para personalizar.</p>
+        <div class="result-box" id="resultBoxRandom">
+            <div class="output-area password-display"><code id="randomPasswordOutput">Sua senha aleatória aparecerá aqui...</code>
+                <button class="copy-button" id="copyRandomButton" title="Copiar"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#FFFFFF"><path d="M0 0h24v24H0z" fill="none"/><path d="M16 1H4c-1.1 0-2 .9-2 2v14h2V3h12V1zm3 4H8c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h11c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-5zm0 16H8V7h11v14z"/></svg></button>
+            </div>
+            <div class="copy-notification">Copiado!</div>
+        </div>
+        <div class="options">
+            <div class="option"><label for="lengthSlider">Comprimento: <span id="lengthValue">16</span></label><input type="range" id="lengthSlider" min="8" max="64" value="16"></div>
+            <div class="option"><input type="checkbox" id="uppercaseCheck" checked><label for="uppercaseCheck">Maiúsculas (A-Z)</label></div>
+            <div class="option"><input type="checkbox" id="numbersCheck" checked><label for="numbersCheck">Números (0-9)</label></div>
+            <div class="option"><input type="checkbox" id="symbolsCheck" checked><label for="symbolsCheck">Símbolos (!@#$)</label></div>
+        </div>
+        <button id="generateRandomButton" class="generate-full-width">Gerar Nova Senha Aleatória</button>
+      </p>By FoxMoonDev</p>
+    </div>
+    <script src="script.js"></script>
+    </div>
+
+    <footer>
+        Desenvolvido por <a href="https://github.com/FoxMoonDev" target="_blank">FoxMoonDev</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</body>
+</html>
