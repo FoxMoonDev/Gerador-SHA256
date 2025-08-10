@@ -79,6 +79,7 @@ Para rodar este projeto na sua máquina, não é necessário nenhuma instalaçã
 Este projeto foi idealizado, projetado e desenvolvido por **FoxMoonDev**.
 
 - **GitHub:** [@FoxMoonDev](https://github.com/FoxMoonDev)
+- ⭐ Click Star For More  ☝🤓
 
 O código foi criado como uma ferramenta prática e educacional para demonstrar conceitos importantes de segurança de senhas no front-end. Sinta-se à vontade para usar, modificar e aprender com este projeto.
 
